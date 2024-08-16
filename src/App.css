@@ -1,0 +1,88 @@
+.Title{
+    font-size: 45px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+
+  @keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 10px #a2beff, 0 0 15px #33a4f5, 0 0 20px #2e8ff7, 0 0 25px #067dfb, 0 0 20px #0776ff;
+    }
+    
+    to {
+      text-shadow: 0 0 10px #fff, 0 0 10px #93f1ca, 0 0 15px #23fbc8, 0 0 20px #0ff8c1, 0 0 25px #06eeff, 0 0 20px #00c3ff;
+    }
+  }
+
+.node {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.node-content {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border-width: 2px;
+    border-style: solid;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.node-children {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.Actions{
+    display: flex;
+    justify-content: right;
+    margin-right: 10%;
+}
+
+
+
+.Run {
+    background-color: #0486aa;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 52%;
+    border-radius: 40px;
+}
+
+.Add {
+    background-color: #0486aa;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 4%;
+    border-radius: 40px;
+  }
+
+  .Remove {
+    background-color: #0486aa;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 40px;
+  }
