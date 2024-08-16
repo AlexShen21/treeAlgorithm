@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/treeAlgorithm/static/css/main.ad1ba225.css",
+    "main.js": "/treeAlgorithm/static/js/main.b4c6dc7a.js",
+    "index.html": "/treeAlgorithm/index.html",
+    "main.ad1ba225.css.map": "/treeAlgorithm/static/css/main.ad1ba225.css.map",
+    "main.b4c6dc7a.js.map": "/treeAlgorithm/static/js/main.b4c6dc7a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ad1ba225.css",
+    "static/js/main.b4c6dc7a.js"
+  ]
+}
